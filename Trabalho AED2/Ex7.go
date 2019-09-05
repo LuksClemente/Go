@@ -8,7 +8,7 @@ func recursao(v []int, n int){
 	}
 	v1 := make([]int, n/2)
 	v2 := make([]int, n/2)
-	for i := 0; i < n/2; i = i + 1{
+	for i := 0; i < n/2; i++{
 		v[i]++;
 	}
 	recursao(v1, n/2)
