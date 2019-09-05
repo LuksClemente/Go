@@ -11,7 +11,7 @@ func recursao(v []int, n int){
 	var t int = int(math.Pow(2, nf))
 	V := make([]int, t) 
 	v1 := make([]int, n/2)
-	for i := 0; i < t; i = i + 1{
+	for i := 0; i < t; i++{
 		V[i] = i;
 		fmt.Printf("%d ->", V[i])
 	}
