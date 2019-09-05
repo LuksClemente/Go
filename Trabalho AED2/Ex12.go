@@ -9,7 +9,7 @@ func recursao(v []int, n int){
 	v1 := make([]int, n/2) 
 	v2 := make([]int, n/2)
 	var cont int = 0
-	for i := 0; i < n; i = i + 1{
+	for i := 0; i < n; i++{
 		cont++;
 		v[i] = cont
 	}
