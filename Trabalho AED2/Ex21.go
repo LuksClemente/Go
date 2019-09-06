@@ -21,7 +21,5 @@ func main(){
 	v := make([]int, 8)
 	v = []int{1, 5, 2, 6, 8, 3, 2, 1}
 	recursao(v, 8)
-	for i := 0; i < 8; i++{
-		fmt.Printf("%d -> ", v[i])
-	}
+	fmt.Printf("%d", v)
 }
